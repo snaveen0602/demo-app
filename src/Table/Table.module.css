@@ -1,0 +1,42 @@
+.tableContainer {
+  width: 80vw;
+  border: solid 1px gray;
+  margin: 5rem auto;
+  background-color: #fff;
+}
+
+.tableHeader,
+.tableContent {
+  border-bottom: solid 1px gray;
+}
+
+.tableData {
+  padding: 0.8rem;
+  border: solid 1px gray;
+}
+
+.cardsContainer {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .tableContainer {
+    display: none;
+  }
+
+  .cardsContainer {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card {
+    width: 550px;
+    background-color: #fff;
+    border: solid 1px lightgrey;
+    border-radius: 0.2rem;
+    margin: 0.8rem;
+    padding: 0.5rem;
+  }
+}

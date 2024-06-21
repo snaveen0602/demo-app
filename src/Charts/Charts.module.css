@@ -1,0 +1,7 @@
+.chartContainer {
+  width: 80vw;
+  margin: 5rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
